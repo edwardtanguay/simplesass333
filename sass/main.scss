@@ -1,0 +1,11 @@
+$mainColor: navy;
+
+body {
+	p {
+		color: $mainColor;
+	}
+	h1 {
+		color: $mainColor;
+		font-size: 2em;
+	}
+}
