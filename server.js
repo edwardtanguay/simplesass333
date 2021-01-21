@@ -1,13 +1,3 @@
-const connect = require('connect')
-const sassMiddleware = require('node-sass-middleware')
-const server = connect.createServer(
-	sassMiddleware({
-		src: __dirname,
-		dest: __dirname + '/public',
-	}),
-	connect.static(__dirname + '/public')
-);
-
 const express = require('express');
 const sassMiddleware = require('node-sass-middleware');
 const path = require('path');
